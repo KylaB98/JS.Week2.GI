@@ -25,48 +25,48 @@ console.log('Hello ' + studentFirstName[1] + ' ' + studentLastName[1] + ',' + st
 //MEDIUM: Create a program that accepts a number (1-12) as input and logs to the console that number
 //and its corresponding month.Alert the user if they enter an invalid number.
 
-//const monthNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
-//const userInput= prompt("Please type a number between 1-12.");
+const monthNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+const userInput= prompt("Please type a number between 1-12.");
 
-//if(userInput === 1){
-  //  console.log("January")
-//}
-//else if(userInput === 2){
-  //  console.log("February")
-//} 
-//else if(userInput === 3){
-  //  console.log("March")
-//} 
-//else if(userInput === 4){
-  //  console.log("April")
-//} 
-//else if(userInput === 5){
- //   console.log("May")
-//} 
-//else if(userInput === 6){
-//    console.log("June")
-//} 
-//else if(userInput === 7){
- //   console.log("July")
-//} 
-//else if(userInput === 8){
- //   console.log("August")
-//} 
-//else if(userInput === 9){
-  //  console.log("September")
-//} 
-//else if(userInput === 10){
- //   console.log("October")
-//} 
-//else if(userInput === 11){
-  //  console.log("November")
-//} 
-//else if(userInput === 12 ){
- //   console.log("December")
-//} 
-//else {
- //   alert("Invalid Input")
-//};
+if(userInput === 1){
+  console.log("January")
+}
+else if(userInput === 2){
+  console.log("February")
+} 
+else if(userInput === 3){
+  console.log("March")
+} 
+else if(userInput === 4){
+  console.log("April")
+} 
+else if(userInput === 5){
+   console.log("May")
+} 
+else if(userInput === 6){
+    console.log("June")
+} 
+else if(userInput === 7){
+   console.log("July")
+} 
+else if(userInput === 8){
+   console.log("August")
+} 
+else if(userInput === 9){
+  console.log("September")
+} 
+else if(userInput === 10){
+   console.log("October")
+} 
+else if(userInput === 11){
+  console.log("November")
+} 
+else if(userInput === 12 ){
+   console.log("December")
+} 
+else {
+   alert("Invalid Input")
+};
 
 //HARD: Given the information below for Tom and Jerry.
 //● Tom - height:  9in mass: 8 g
